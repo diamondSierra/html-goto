@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html-goto</title>
+</head>
+<body>
+
+    <input type="text" id="Input" placeholder="Enter Target URL">
+    <button onclick="tp()">  Go  </button>
+
+    <script>
+        function tp() {
+            var inputElement = document.getElementById("Input");
+            var inputURL = inputElement.value;
+            window.location.href=inputURL;
+        }
+    </script>
+
+</body>
+</html>
